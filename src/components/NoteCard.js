@@ -7,15 +7,6 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import DeleteIcon from '@mui/icons-material/Delete';
 
-// const bull = (
-//   <Box
-//     component="span"
-//     sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-//   >
-//     •
-//   </Box>
-// );
-
 export default function NoteCard({ title, description }) {
   return (
     <Card sx={{ minWidth: 275, m:2 }} variant="outlined">

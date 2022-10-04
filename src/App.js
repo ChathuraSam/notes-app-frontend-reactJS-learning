@@ -3,16 +3,9 @@ import { useState, useEffect } from 'react';
 import NoteCard from './components/NoteCard';
 import NoteForm from './components/NoteForm';
 import { Container } from '@mui/material';
-import { Typography } from '@mui/material';
 import NotesHeader from './components/NoteHeader';
 
-
-
-
 function App() {
-
-    
-
     // useEffect is using to fetch
     const [data, setData] = useState(null);
     const [error, setError] = useState(null);
